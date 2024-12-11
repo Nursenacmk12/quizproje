@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+</head>
+<body>
+    <h1>Quiz</h1>
+    <form action="/submit" method="post">
+        <label>What is your name?</label><br>
+        <input type="text" name="name" required><br><br>
+
+        <label>Question 1: What is your favorite color?</label><br>
+        <input type="radio" name="q1" value="Red"> Red<br>
+        <input type="radio" name="q1" value="Blue"> Blue<br>
+        <input type="radio" name="q1" value="Green"> Green<br><br>
+
+        <label>Question 2: What is your favorite animal?</label><br>
+        <input type="radio" name="q2" value="Dog"> Dog<br>
+        <input type="radio" name="q2" value="Cat"> Cat<br>
+        <input type="radio" name="q2" value="Parrot"> Parrot<br><br>
+
+        <label>Question 3: What is your favorite programming language?</label><br>
+        <input type="radio" name="q3" value="Python"> Python<br>
+        <input type="radio" name="q3" value="Java"> Java<br>
+        <input type="radio" name="q3" value="C++"> C++<br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
